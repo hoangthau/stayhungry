@@ -1,2 +1,0 @@
-# stayhungry
-Created with CodeSandbox

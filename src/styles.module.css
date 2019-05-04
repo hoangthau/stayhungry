@@ -1,0 +1,85 @@
+html {
+  font-family: "AvenirRoman", -apple-system, BlinkMacSystemFont, "Open Sans",
+    "Segoe UI", "Helvetica Neue", sans-serif;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+hr {
+  color: #ccc;
+  opacity: 0.1;
+}
+.nav {
+  margin: 50px 0;
+  padding: 0;
+}
+.nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #111;
+  opacity: 0.6;
+}
+.nav .active {
+  opacity: 0.9;
+  border-bottom: 1px solid #eee;
+}
+.desire {
+  max-width: 740px;
+}
+.desireItem {
+  margin: 36px 0;
+}
+.desc {
+  opacity: 0.7;
+}
+.imageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: 36px;
+}
+.col {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.imageItem {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.imageItem img {
+  width: 100%;
+}
+.collageItem {
+  margin-top: 48px;
+}
+/* responsive */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .col {
+    width: 33.33%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
